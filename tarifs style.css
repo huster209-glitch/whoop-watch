@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 200px;
+    height: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card button {
+    padding: 10px 40px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+s {
+    color: gray;
+}
+
+.top-btn {
+    background: linear-gradient(50deg, orange 0%,orange 50%, rgb(125, 55, 0) 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.start-with {
+    background: linear-gradient(50deg, orange 0%,orange 50%, rgb(125, 55, 0) 100%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.start-with:hover {
+    background: linear-gradient(90deg,rgba(212, 138, 0, 1) 0%, rgba(212, 138, 0, 1) 50%, rgba(128, 55, 0, 1) 100%);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+p, h4, li {
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    line-height: 27px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
